@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug SwiftPiNFC",
+            "program": "${workspaceFolder:SwiftPiNFC}/.build/debug/SwiftPiNFC",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftPiNFC}",
+            "preLaunchTask": "swift: Build Debug SwiftPiNFC"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release SwiftPiNFC",
+            "program": "${workspaceFolder:SwiftPiNFC}/.build/release/SwiftPiNFC",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftPiNFC}",
+            "preLaunchTask": "swift: Build Release SwiftPiNFC"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+module libnfc [system] {
+    header "libnfc.h"
+    link "libnfc"
+    export *
+}
